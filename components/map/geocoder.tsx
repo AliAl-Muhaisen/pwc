@@ -7,6 +7,7 @@ const Geocoder = () => {
     marker: false,
     collapsed: true,
   });
+  /// The useControl hook is used to create React wrappers for custom map controls.
 
   useControl(() => mapController);
   return null;
